@@ -25,5 +25,4 @@ MODULE_TITLE = "Monitoring"
 MODULE_TYPE = "syspanel" # use 'dash' for user dashboard
 LINKS = [
     {'url':'/syspanel/nixon/munin', 'text':'Munin', 'active_text': 'munin'},
-    # {'url':'http://google.com', 'text':'ffff'},
 ]

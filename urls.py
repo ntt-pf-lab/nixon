@@ -12,5 +12,5 @@ DASH = r'^dash/nixon/%s$'
 
 
 urlpatterns = patterns('nixon.views',
-    url(SYSPANEL % 'google', 'google', name='os_dash_nixon_google'),
+    url(SYSPANEL % 'munin', 'munin', name='os_dash_nixon_munin'),
 )
